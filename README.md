@@ -92,25 +92,3 @@ par type de métier, par fourchette de salaire, etc.
 d’une offre.  
 • Gestion des candidatures : visualiser la liste de mes candidatures, sélectionner,
 compléter ou annuler une candidature.  
-  
-  
-# Livrables attendus  
-
-## 1. Les cas d’utilisation  
-Identifier qui va utiliser le système (les acteurs) et dans quel cas ce système est utilisé (par exemple,
-ajouter une offre). Voir avec votre chargé de TD comment lister ces cas d’utilisation et les détailler
-par la suite.  
-
-## 2. Conception  
-L’objectif de cette étape est de définir le modèle logique de données (ou schéma de base de données)
-de votre application. Vous pouvez commencer par définir le diagramme de classe de votre application
-à partir de ce cahier des charges. Par la suite, vous faites un passage de ce modèle orienté objet vers
-le modèle logique de données de notre application. Voir avec votre chargé de TD comment faire ce
-passage.  
-
-# 3. Une carte de votre site web et un prototype de l’IHM  
-• Une carte de votre site web pour visualiser sa structure et comment naviguer entre les pages.  
-• Faites un prototype de l’IHM de votre application web en utilisant des outils simple (dessiner
-sur un papier, document Word ou PowerPoint, etc.). L’objectif est de dessiner l’interface de votre application afin de la valider avec votre chargé de TD avant de commencer à coder les différentes pages.  
-votre application afin de la valider avec votre chargé de TD avant de commencer à coder les
-différentes pages.
