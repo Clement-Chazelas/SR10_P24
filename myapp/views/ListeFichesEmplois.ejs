@@ -1,0 +1,29 @@
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <table border>
+    <thead>
+      <tr>
+	<th>id_organisation</th>
+	<th>intitule</th>
+	<th>fourchette_salaire</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% fichesEmplois.forEach((offre)=> { %>
+	<tr>
+	  <td>
+	    <%= offre.id_organisation %>
+	  </td>
+	  <td>
+	    <%= offre.intitule %>
+	  </td>
+	  <td>
+	    <%= offre.fourchette_salaire %>
+	  </td>
+	</tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>

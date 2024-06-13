@@ -1,0 +1,29 @@
+<body>
+  <h1>
+    <%= title %>
+  </h1>
+  <table border>
+    <thead>
+      <tr>
+	<th>id_candidature</th>
+	<th>id_candidat</th>
+	<th>id_offre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% candidatures.forEach((offre)=> { %>
+	<tr>
+	  <td>
+	    <%= offre.id_candidature %>
+	  </td>
+	  <td>
+	    <%= offre.id_candidat %>
+	  </td>
+	  <td>
+	    <%= offre.offre %>
+	  </td>
+	</tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
